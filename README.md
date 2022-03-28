@@ -37,7 +37,7 @@ BookQへログインを行うメソッドです．
 **Bookq.get_pdf()**
 ```python
 get_pdf(
-    book_url, page_num, file_name='output.pdf', sleep_time=1
+    book_url, page_num, file_name='output.pdf', sleep_seconds=1
 )
 ```
 スライドを取得するメソッドです．
@@ -46,7 +46,7 @@ get_pdf(
 |book_url|スライドのURL|
 |page_num|取得するスライドの枚数を指定|
 |file_name|出力するPDFの名前|
-|sleep_time|スライド取得毎に入るスリープの間隔（秒）|
+|sleep_seconds|スライド取得毎に入るスリープの間隔（秒）|
 
 ## 注意点
 スライドは著作物です．取得したスライドの取扱いには十分注意してください．
